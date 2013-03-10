@@ -21,9 +21,9 @@
 		9106C47416EC5E7200D6B7DF /* UIImage+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106C47316EC5E7200D6B7DF /* UIImage+Filter.m */; };
 		9106C47816EC605500D6B7DF /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106C47716EC605500D6B7DF /* UIImage+Transform.m */; };
 		9106C47A16ED4A4D00D6B7DF /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9106C47916ED4A4D00D6B7DF /* example.jpg */; };
-		9106C47D16ED4DD500D6B7DF /* UIImageView+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106C47C16ED4DD500D6B7DF /* UIImageView+Transform.m */; };
 		9106C47F16ED4E3500D6B7DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9106C47E16ED4E3500D6B7DF /* QuartzCore.framework */; };
 		9106C48116ED4EB800D6B7DF /* exampleMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 9106C48016ED4EB800D6B7DF /* exampleMask.png */; };
+		9106C48416ED522700D6B7DF /* UIImageView+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106C48216ED522700D6B7DF /* UIImageView+Transform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,10 +48,10 @@
 		9106C47616EC605500D6B7DF /* UIImage+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "Classes/UIImage+Transform.h"; sourceTree = "<group>"; };
 		9106C47716EC605500D6B7DF /* UIImage+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Transform.m"; path = "Classes/UIImage+Transform.m"; sourceTree = "<group>"; };
 		9106C47916ED4A4D00D6B7DF /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
-		9106C47B16ED4DD500D6B7DF /* UIImageView+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Transform.h"; sourceTree = "<group>"; };
-		9106C47C16ED4DD500D6B7DF /* UIImageView+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Transform.m"; sourceTree = "<group>"; };
 		9106C47E16ED4E3500D6B7DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9106C48016ED4EB800D6B7DF /* exampleMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exampleMask.png; sourceTree = "<group>"; };
+		9106C48216ED522700D6B7DF /* UIImageView+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Transform.m"; path = "Classes/UIImageView+Transform.m"; sourceTree = "<group>"; };
+		9106C48316ED522700D6B7DF /* UIImageView+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Transform.h"; path = "Classes/UIImageView+Transform.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,12 +130,12 @@
 		9106C47516EC5E8600D6B7DF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9106C48216ED522700D6B7DF /* UIImageView+Transform.m */,
+				9106C48316ED522700D6B7DF /* UIImageView+Transform.h */,
 				9106C47216EC5E7200D6B7DF /* UIImage+Filter.h */,
 				9106C47316EC5E7200D6B7DF /* UIImage+Filter.m */,
 				9106C47616EC605500D6B7DF /* UIImage+Transform.h */,
 				9106C47716EC605500D6B7DF /* UIImage+Transform.m */,
-				9106C47B16ED4DD500D6B7DF /* UIImageView+Transform.h */,
-				9106C47C16ED4DD500D6B7DF /* UIImageView+Transform.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 				9106C46C16EC5A8D00D6B7DF /* ViewController.m in Sources */,
 				9106C47416EC5E7200D6B7DF /* UIImage+Filter.m in Sources */,
 				9106C47816EC605500D6B7DF /* UIImage+Transform.m in Sources */,
-				9106C47D16ED4DD500D6B7DF /* UIImageView+Transform.m in Sources */,
+				9106C48416ED522700D6B7DF /* UIImageView+Transform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
